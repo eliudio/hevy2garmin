@@ -1,3 +1,13 @@
+Extra security on garmin for my account, so:
+
+1. run: hevy2garmin serve
+2. Open your browser and go to:
+   http://localhost:8123
+   follow the wizard
+   Tokens are now cached locally in ~/.garminconnect (or %USERPROFILE%\.garminconnect on Windows).
+3. close browser and close 1.
+4. hevy2garmin sync
+
 <p align="center">
   <img src="src/hevy2garmin/static/favicon.svg" width="80" height="80" alt="hevy2garmin logo">
 </p>
